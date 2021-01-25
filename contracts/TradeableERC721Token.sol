@@ -49,7 +49,7 @@ contract TradeableERC721Token is ERC721Full, Ownable {
     _currentTokenId++;
   }
 
-  function baseTokenURI() public view returns (string memory) {
+  function baseTokenURI() public pure returns (string memory) {
     return "";
   }
 
